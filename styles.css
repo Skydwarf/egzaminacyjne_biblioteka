@@ -1,0 +1,51 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+body{
+    background-color: lightcyan;
+}
+header, footer{
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+}
+footer{
+    clear: both;
+}
+article{
+    padding-top: 40px;
+    margin: 1%;
+    float: left;
+    width: 30%;
+}
+article{
+    background-color: dodgerblue;
+}
+aside{
+    background-color: limegreen;
+}
+section{
+    background-color: darkorchid;
+}
+img{
+    width: 70%;
+}
+p{
+    padding: 20px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border: solid 1px steelblue;
+}
+tr:hover{
+    background-color: steelblue;
+    color: white;
+}
+@media only screen and (max-width: 800px) {
+  article{
+    width: 98%;
+  }
+}
